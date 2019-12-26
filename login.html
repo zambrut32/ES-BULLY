@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <!-- Compiled and minified CSS -->
+
+    <link rel="stylesheet" href="asset/css/materialize.css">
+    <link href="asset/iconfont/material-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="asset/css/animasi.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="asset/js/materialize.js"></script>
+    <script src="asset/js/jquery-3.2.1.min.js"></script>
+    <link href="asset/css/font.css" rel="stylesheet" type="text/css">
+    <script src="asset/js/materialize.min.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="https://uploads.letters2president.org/1478694372916-NO-BULLYING.png">
+    <link rel="stylesheet" href="asset/css/extra.css">
+    <title>BULLYING</title>
+</head>
+<body bgcolor="#21262c">
+<ul id="dropdown1" class="dropdown-content">
+    <li><a href="#!">Rizky Putra R</a></li>
+    <li><a href="#!">two</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">Logout</a></li>
+</ul>
+<nav class="nav-extended transparent">
+    <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo" style="padding-left: 30px ; padding-top: 5px"><img src="asset/img/Logo_PENS_putih.png" alt="" height="50" width="50"></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down" style="padding-left: 100px ; font-weight: bold">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="team.html">TEAM</a></li>
+        </ul>
+        <ul id="nav-mobile" class="right hide-on-med-and-down" style="padding-left: 100px ; font-weight: bold">
+
+            <li><a class="btn " style="background: #f57c00;margin-right: 100px" id="bukak" href="register.html">REGISTER</a></li>
+
+        </ul>
+    </div>
+</nav>
+
+
+<ul class="sidenav"  id="mobile-demo">
+    <li><a href="index.html" style="color: #FFFFFF">HOME</a></li>
+    <li><a href="#" style="color: #FFFFFF">ABOUT</a></li>
+    <li><a href="team.html" style="color: #FFFFFF">TEAM</a></li>
+</ul>
+
+
+<div class="container">
+    <div class="row ">
+        <div class="col s12 m6 offset-m3" style="padding-top: 50px">
+
+            <div class="card z-depth-5 " >
+
+                <div class="card-image center-align">
+                    <span class="card-title z-depth-2 offset-m9 animated bounceInUp slow" style="padding: auto;background: #f57c00;color: #fff;font-family: 'Arial Black';position: relative ">Login Here</span>
+
+                </div>
+
+                <div class="card-body" style="margin-left: 30px; padding-top: 50px">
+                    <form style="color: #000" >
+
+                        <br>
+                        <div class=" row">
+
+                            <div class="input-field col s10 ">
+                                <i class="material-icons prefix">email</i>
+                                <input id="icon_prefix" type="email" class="form-control" name="email"  required autocomplete="email" autofocus>
+                                <label for="last_name">email</label>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <div class=" row">
+
+                            <div class="input-field col s10 ">
+                                <i class="material-icons prefix">vpn_key</i>
+                                <input id="password" type="password" class="form-control" name="password" required autocomplete="current-password">
+                                <label for="last_name">password</label>
+                        </div>
+
+                        <div class="form-group row mb-0 center" style="padding-bottom: 50px;margin-right: 10px">
+                            <div class="col-md-8 offset-md-4 offset-m3" >
+
+                                <a class="btn bg-orange" href="index-login.html" style="margin-top: 60px">Login
+                                    <i class="material-icons right">send</i></a>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    $(document).ready(function(){
+        $('.tap-target').tapTarget('');
+    });
+
+    $('.dropdown-trigger').dropdown();
+
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+    });
+    $(document).ready(function(){
+        $('.fixed-action-btn').floatingActionButton();
+    });
+    $('.carousel.carousel-slider').carousel({
+        fullWidth: true,
+        indicators: true
+    });
+    $(document).ready(function(){
+        $('.materialboxed').materialbox();
+    });
+
+    $(document).ready(function(){
+        $('.slider').slider({
+            height : 520
+        });
+    });
+
+
+
+</script>
+
+</body>
+</html>

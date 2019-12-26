@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="24431b75-393e-4800-b602-801b9897b197" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SJlF8cohmp7JRiLLbL4runvpCx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../web desaint/TA" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/asset" />
+      <recent name="$PROJECT_DIR$/asset/css" />
+      <recent name="$PROJECT_DIR$/asset/img" />
+      <recent name="$PROJECT_DIR$/asset/img/icon" />
+      <recent name="$PROJECT_DIR$/asset/img/depan" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24431b75-393e-4800-b602-801b9897b197" name="Default Changelist" comment="" />
+      <created>1571289472522</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571289472522</updated>
+      <workItem from="1571289473658" duration="329000" />
+      <workItem from="1571290512750" duration="702000" />
+      <workItem from="1571317905013" duration="9531000" />
+      <workItem from="1571369600396" duration="7190000" />
+      <workItem from="1571378366767" duration="7041000" />
+      <workItem from="1571406802709" duration="7799000" />
+      <workItem from="1571462043836" duration="5691000" />
+      <workItem from="1571488287708" duration="9576000" />
+      <workItem from="1571559686504" duration="5440000" />
+      <workItem from="1571580274862" duration="1619000" />
+      <workItem from="1571622531108" duration="1425000" />
+      <workItem from="1571652834380" duration="12443000" />
+      <workItem from="1571715548725" duration="13942000" />
+      <workItem from="1571815098552" duration="1157000" />
+      <workItem from="1571817302750" duration="1772000" />
+      <workItem from="1571826258345" duration="7749000" />
+      <workItem from="1572018002977" duration="7631000" />
+      <workItem from="1572139608742" duration="1688000" />
+      <workItem from="1572155070187" duration="7621000" />
+      <workItem from="1572173199637" duration="6337000" />
+      <workItem from="1572265242554" duration="6000" />
+      <workItem from="1572266634824" duration="6920000" />
+      <workItem from="1572309590825" duration="4907000" />
+      <workItem from="1572351058366" duration="9176000" />
+      <workItem from="1572396107721" duration="605000" />
+      <workItem from="1572487120516" duration="275000" />
+      <workItem from="1572492771082" duration="4263000" />
+      <workItem from="1572502412502" duration="5782000" />
+      <workItem from="1572655320590" duration="7204000" />
+      <workItem from="1572740959462" duration="5037000" />
+      <workItem from="1572766568051" duration="5240000" />
+      <workItem from="1573813713847" duration="1764000" />
+      <workItem from="1574064901389" duration="41000" />
+      <workItem from="1574072967780" duration="97000" />
+      <workItem from="1574926636429" duration="482000" />
+      <workItem from="1575335848224" duration="41000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

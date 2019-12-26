@@ -1,0 +1,165 @@
+body {
+    max-width: 2000px;
+    width: 100%;
+    margin: 0 auto;
+    min-width: 900px;
+}
+.dropdown-content li > a, .dropdown-content li > span {
+    font-size: 16px;
+    color: #FFFFFF;
+    display: block;
+    line-height: 22px;
+    padding: 14px 16px;
+    background-color: #21262c;
+}
+nav ul a:hover {
+    background-color: #f57c00;
+}
+.red.lighten-1 {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+.blue-grey.darken-4 {
+    background-color: #21262c !important;
+}
+.sidenav{
+    background-color: #21262c;
+
+}
+.putih{
+    color: white;
+}
+img{
+    transition: transform .4s;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.slider .indicators .indicator-item.active {
+    background-color: #f57c00;
+}
+.abu-abu{
+    width: 100%;
+    height: 500px;
+}
+
+nav ul a{
+    padding: 0 10px
+}
+
+/* CSS UNTUK WARNA */
+.gradient-orange  {
+    background: linear-gradient(to left, #f57c00, #f58b23);
+}
+.gradient-gray {
+    background: linear-gradient(to right, #6c5c53, #806f66);
+}
+.text-black{
+    color: #21262c;
+}
+.text-orange{
+    color: #f57c00;
+}
+.bg-orange{
+    background: #f57c00;
+}
+.bg-black{
+    background: #21262c;
+}
+/* akhir CSS warna*/
+.modal .modal-content{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* CSS UNTUK kemiringan div */
+.miring-kanan{
+    transform: skewY(3deg);
+    width: 100%;
+}
+.miring-kiri{
+    transform: skewY(-3deg);
+    width: 100%;
+}
+/* akhir CSS kemiringan div*/
+.btn-floating:hover {
+    background-color: #d76c00;
+}
+/*border */
+.none-border{
+    border: 0;
+}
+/*ukuran font*/
+.font-medium{
+    font-size: 20px;
+}
+/*bold*/
+.bold{
+    font-weight: bold;
+}
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+    background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}

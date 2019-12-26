@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="asset/css/materialize.css">
+    <link rel="stylesheet" href="asset/css/animasi.css">
+    <link href="asset/iconfont/material-icons.css" rel="stylesheet">
+    <!-- Compiled and minified JavaScript -->
+    <script src="asset/js/materialize.js"></script>
+    <script src="asset/js/jquery-3.2.1.min.js"></script>
+    <link href="asset/css/font.css" rel="stylesheet" type="text/css">
+    <script src="asset/js/materialize.min.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="https://uploads.letters2president.org/1478694372916-NO-BULLYING.png">
+    <link rel="stylesheet" href="asset/css/extra.css">
+    <title>BULLYING</title>
+</head>
+<style>
+
+    body {background-image: url("asset/img/about.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 2000px;
+        width: 100%;
+        margin: 0 auto;
+        min-width: 900px;
+    }
+
+</style>
+<body>
+
+<nav class="nav-extended transparent">
+    <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo" style="padding-left: 30px ; padding-top: 5px"><img src="asset/img/Logo_PENS_putih.png" alt="" height="50" width="50"></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down" style="padding-left: 100px ; font-weight: bold">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="team.html">TEAM</a></li>
+        </ul>
+        <ul id="nav-mobile" class="right hide-on-med-and-down" style="padding-left: 100px ; font-weight: bold">
+
+            <li><a class="btn " style="background: #f57c00;margin-right: 100px" id="bukak" href="login.html">lOGIN</a></li>
+
+        </ul>
+    </div>
+</nav>
+
+
+<ul class="sidenav bg-black" id="mobile-demo">
+    <li><a href="index.html" style="color: #FFFFFF">HOME</a></li>
+    <li><a href="#" style="color: #FFFFFF">ABOUT</a></li>
+    <li><a href="team.html" style="color: #FFFFFF">TEAM</a></li>
+</ul>
+<div style="margin-top: 10%;margin-bottom: 7%">
+    <h4 class="center-align white-text animated bounceInUp">Hallo</h4>
+    <h5 class="center-align white-text animated bounceInUp slow">Kita Dari Team Ambis</h5>
+    <p class="center-align white-text animated bounceInUp slower">Untuk memberi edukasi tentang bahaya bullying yang <br> banyak terjadi di Indonesia.
+        Diharapkan dengan adanya website ini dapat <br> menyadarkan seseorang agar menghentikan segala tindakan tentang bullying.</p>
+    <h4 class="center-align white-text animated fadeInRight delay-1s">-----ES-Bully-----</h4>
+    <p class="center-align white-text animated fadeInLeft delay-1s">Education Stop Bullying</p>
+
+</div>
+<br><br><br>
+<footer class="page-footer" style="background: #261f3e">
+
+    <div class="footer-copyright">
+        <div class="container">
+            Made with <a style="color: red">❤</a>  in Surabaya
+
+            <a href="#" class="brand-logo right"><img src="asset/img/Logo_PENS_putih.png" width="40" ></a>
+            <a href="#" class="brand-logo right" style="margin-right: 20px;margin-top: -20px"><img src="asset/img/ic.jpg" width="100" ></a>
+            <a href="#" class="brand-logo right" style="margin-right: 20px;"><img src="asset/img/maskot.jpg" width="50" ></a>
+        </div>
+    </div>
+</footer>
+
+<script>
+
+    $(document).ready(function(){
+        $('.tap-target').tapTarget('');
+    });
+
+    $('.dropdown-trigger').dropdown();
+
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+    });
+    $(document).ready(function(){
+        $('.fixed-action-btn').floatingActionButton();
+    });
+    $('.carousel.carousel-slider').carousel({
+        fullWidth: true,
+        indicators: true
+    });
+    $(document).ready(function(){
+        $('.materialboxed').materialbox();
+    });
+
+    $(document).ready(function(){
+        $('.slider').slider({
+            height : 520
+        });
+    });
+
+
+
+</script>
+
+</body>
+</html>
